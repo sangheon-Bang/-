@@ -35,18 +35,18 @@ import view.ImagePanel;
 
 import static model.SaveVariable.save_image;
 @SuppressWarnings("serial")
-public class AD extends JFrame {
+public class Event extends JFrame {
 	
-	private JFrame frame = new JFrame("광고");
+	private JFrame frame = new JFrame("이벤트");
 	private JPanel imgpan = new JPanel();
 	private JPanel southpanel = new JPanel();
-	private JButton btn_b = new JButton("광고 이미지 변경");
+	private JButton btn_b = new JButton("이벤트 이미지 변경");
 	private Dimension dimen_a;
 	private Dimension dimen_b;
 	private int xpos, ypos;
 	private String imgname;
 
-	public AD() {
+	public Event() {
 		southpanel.setBackground(Color.green);
 		southpanel.add(btn_b);
 		btn_b.addActionListener(new UploadImage());
