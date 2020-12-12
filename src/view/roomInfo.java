@@ -52,7 +52,7 @@ public class roomInfo{
 	
 	public static void getTime(String time) {
 		end_time=time;
-		RoomUpdateProcess.roomInfoChange(end_time,103,1);
+		RoomUpdateProcess.roomInfoChange(end_time,203,2);
 		
 	}
 	
